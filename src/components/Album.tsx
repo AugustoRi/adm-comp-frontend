@@ -162,7 +162,7 @@ export default function Album() {
           <Grid container spacing={4}>
             {cards.map((card) => (
               <Grid item key={card.id} xs={12} sm={6} md={4}>
-                <Paper elevation={12} >
+                <Paper elevation={12}>
                     <Card
                     sx={{ height: '100%', minHeight: 350, display: 'flex', flexDirection: 'column' }}
                     >
